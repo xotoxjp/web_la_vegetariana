@@ -1,0 +1,46 @@
+doctype html
+html(lang="es")
+  head
+    title Tortilla De Espinacas Y Champignons Vegana
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon", href="../images/favicon.png")
+    link(rel="stylesheet", href="http://cdn.foundation5.zurb.com/foundation.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css") 
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css ") 
+    link(rel="stylesheet", href="../css/styles.css")
+
+  body
+    div.content  
+      include includes/top-logo-social
+      include includes/menu-recetas
+
+      .row
+        .column.small-12.medium-8.large-8
+          include includes/col-1-tortilla-espinacas-champignons
+        .column.small-12.medium-4.large-4.ruled
+          include includes/col-2-recetas
+
+
+      .row
+        .column.small-12: hr(style="border-width: 3px 0 0")
+      
+ 
+    footer
+     include ../includes/footer
+    #fb-root
+  script.
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));      
+  script(src="https://code.jquery.com/jquery-1.11.3.min.js")
+  script(src="http://cdn.foundation5.zurb.com/foundation.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js")  
+  script(src="../js/min/functions.min.js") 
+  script(src="min/suscribe.min.js")
+  script(async='', defer='', src='http://assets.pinterest.com/js/pinit.js') 

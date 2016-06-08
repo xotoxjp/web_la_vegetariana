@@ -1,0 +1,35 @@
+doctype html
+html(lang="es")
+  head
+    title Distribuidores La Vegetariana
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="shortcut icon", href="../images/favicon.png")
+    link(rel="stylesheet", href="http://cdn.foundation5.zurb.com/normalize.css")
+    link(rel="stylesheet", href="http://cdn.foundation5.zurb.com/foundation.css")
+    link(rel="stylesheet", href="http://cdn.foundation5.zurb.com/app.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css") 
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css") 
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css") 
+
+    link(rel="stylesheet", href="css/mapa-vegetariana.css")
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    script(src="http://cdn.foundation5.zurb.com/foundation.js")
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxtlK4dPZ4rZr-buTipMnEDG5LH00hqLU")
+
+  body
+      include top-logo-social-map
+      include menu-mapa
+      
+      .row#mapa
+      
+ 
+    footer
+     include ../includes/footer
+  script(src="js/data-dieteticas.js")
+  script(src="js/data-food.js")
+  script(src="js/data-fruteria.js")
+  script(src="js/mapa-vegetariana.js")
+  script(src="../js/min/functions.min.js") 
+  script(src="min/suscribe.min.js")

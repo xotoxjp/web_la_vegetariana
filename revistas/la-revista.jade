@@ -1,0 +1,77 @@
+doctype html
+html(lang="es")
+  head
+    title Edición Impresa
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon", href="../images/favicon.png")
+    link(rel="stylesheet", href="http://cdn.foundation5.zurb.com/foundation.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css") 
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css ") 
+    link(rel="stylesheet", href="../css/styles.css")
+
+  body
+    div.content  
+      include top-logo-social
+      include menu-revista
+      
+      .row
+        .column.small-12
+            div
+              .flex-video: iframe(src="../recursos/revista14.pdf", width="1024", height="768", frameborder="0", scrolling="yes", id="iframe") 
+
+            div
+              ul.inline-list
+                li.selectrev(rel="../recursos/revista14.pdf") 
+                  img(src="../images/tapa14.jpg", width="100px", height="150px", alt="revista número 14")
+
+                li.selectrev(rel="../recursos/revista13.pdf") 
+                  img(src="../images/tapa13.jpg", width="100px", height="150px", alt="revista número 13")
+
+                li.selectrev(rel="../recursos/revista12.pdf") 
+                  img(src="../images/tapa12.jpg", width="100px", height="150px", alt="revista número 12")
+
+                li.selectrev(rel="../recursos/revista11.pdf") 
+                  img(src="../images/tapa11.jpg", width="100px", height="150px", alt="revista número 11")
+
+                li.selectrev(rel="../recursos/revista10.pdf") 
+                  img(src="../images/tapa10.jpg", width="100px", height="150px", alt="revista número 10")
+
+                li.selectrev(rel="../recursos/revista09.pdf") 
+                  img(src="../images/tapa09.jpg", width="100px", height="150px", alt="revista número 09")
+
+                li.selectrev(rel="../recursos/revista08.pdf") 
+                  img(src="../images/tapa08.jpg", width="100px", height="150px", alt="revista número 08")
+
+                li.selectrev(rel="../recursos/revista07.pdf") 
+                  img(src="../images/tapa07.jpg", width="100px", height="150px", alt="revista número 07")
+
+                li.selectrev(rel="../recursos/revista06.pdf") 
+                  img(src="../images/tapa06.jpg", width="100px", height="150px", alt="revista número 06")
+
+                li.selectrev(rel="../recursos/revista05.pdf") 
+                  img(src="../images/tapa05.jpg", width="100px", height="150px", alt="revista número 05")
+
+                li.selectrev(rel="../recursos/revista04.pdf") 
+                  img(src="../images/tapa04.jpg", width="100px", height="150px", alt="revista número 04")
+
+                li.selectrev(rel="../recursos/revista03.pdf") 
+                  img(src="../images/tapa03.jpg", width="100px", height="150px", alt="revista número 03")
+
+                li.selectrev(rel="../recursos/revista02.pdf") 
+                  img(src="../images/tapa02.jpg", width="100px", height="150px", alt="revista número 02")
+
+                li.selectrev(rel="../recursos/revista01.pdf") 
+                  img(src="../images/tapa01.jpg", width="100px", height="150px", alt="revista número 01")
+      .row
+        .column.small-12: hr(style="border-width: 3px 0 0")
+      
+ 
+    footer
+     include ../includes/footer
+  script(src="https://code.jquery.com/jquery-1.11.3.min.js")
+  script(src="http://cdn.foundation5.zurb.com/foundation.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js")
+  script(src="../js/min/functions.min.js") 
+  script(src="min/suscribe.min.js")

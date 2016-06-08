@@ -1,0 +1,19 @@
+.top-actions{
+	margin-top: 20px;
+	margin-bottom: -30px;
+}
+.sub-nav{
+	background-color: #f2f2f2;
+	padding: 0.5em 0;
+}
+.black-box{
+	background: black;
+	color: white;
+	display: inline-block;
+	padding: 0px 0.3em;
+}
+
+.muted{
+	color:#999;
+}
+

@@ -1,0 +1,46 @@
+.row.barra-menu
+  .contain-to-grid.sticky
+      nav.top-bar(data-topbar role="navigation")
+        ul.title-area
+          li.name
+          li.toggle-topbar.menu-icon
+            a.fi-list.hamburguer(href="#")
+              
+
+        section.top-bar-section
+          ul.left
+            li: a(href="../../index.html") Home
+            li.has-dropdown.active
+              a(href='#') Notas
+              ul.dropdown
+                li
+                  a(href='../../secciones/nutricion/seccionnutricion.html') Nutrición
+                li
+                  a(href='../../secciones/salud/seccionsalud.html') Salud
+                li
+                  a(href='../../secciones/deportes/secciondeportes.html') Deportes
+                li.active
+                  a(href='../../secciones/solidaridad/seccionsolidaridad.html') Solidaridad
+                li
+                  a(href='../../secciones/alimentacion/seccionalimentacion.html') Alimentación
+                li
+                  a(href='../../secciones/sustentabilidad/seccionsustentabilidad.html') Sustentabilidad
+                li
+                  a(href='../../secciones/cosmetica/seccioncosmetica.html') Cosmética
+                li
+                  a(href='../../secciones/noticias/seccionnoticias.html') Noticias
+
+            li: a(href="../../recetas/recetas.html") Recetas
+            li: a(data-reveal-id="myModal" data-reveal) Quienes somos
+            li: a(href="../../revistas/la-revista.html") Ver Revista Online       
+            li: a(href="../../mapa/mapa-vegetariana.html") Ver Mapa Saludable
+.row  
+  .column.small-12
+    #myModal.reveal-modal(data-reveal='')
+      h2.modalq Quienes Somos
+      p La Vegetariana, Guía Orgánica de Buenos Aires, es una revista de distribución gratuita que difunde una manera más saludable de vivir. 
+      p Quienes la hacemos creemos que hacía falta un medio que mostrara de forma clara y concreta que se pueden hacer cosas por mejorar nuestra vida y nuestro hábitat.
+      p Por eso -desde hace más de dos años- nos encargamos personalmente de cada una de las áreas, que incluyen desde el armado editorial y el diseño, hasta la distribución.
+      p La Vegetariana no es una revista para vegetarianos, es una publicación para acercar a todo aquel que quiera a una vida mejor.
+
+      a.close-reveal-modal ×

@@ -1,0 +1,260 @@
+.row {
+  max-width: 80rem;
+}
+
+
+
+
+/**************************************************************************************************************** */
+/*****************estilos para la parte superior de redes sociales y telefono y mail***************************** */
+/**************************************************************************************************************** */
+.content{
+  overflow-x: hidden;  
+}
+
+.iconosSociales {
+  margin: 4rem 0.5rem;
+  width: 10%;
+  height: auto;
+  max-width: 1200px;
+}
+.iconosSociales:hover {
+  opacity: 0.4;
+}
+.fila1 {
+  position: relative;
+  left: 20rem;
+}
+@media screen and (max-width: 1024px) {
+  .fila1 {
+    position: relative;
+    left: 14rem;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .fila1 {
+    position: relative;
+    left: 10rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fila1 {
+    position: relative;
+    left: 2rem;
+    top: -2.5rem;
+  }
+
+  .iconosSociales {
+    width: 16%;
+  }
+
+  .logo {
+    position: relative;
+    top: 2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .iconosSociales {
+    width: 20%;
+  }
+  .fila1 {
+    position: relative;
+    left: 1rem;
+    top: -1.2rem;
+  }
+}
+/**************************************************************************************************** */
+/**************************************************************************************************** */
+/**************************************************************************************************** */
+
+
+
+
+/***************************************************************** */
+/************************ top bar styling ************************ */
+/***************************************************************** */
+.barra-menu {
+  margin-bottom: 20px;
+}
+
+.top-bar{
+  max-width: 80rem !important;
+}
+
+/* area that is not covered by any menu's items */
+.top-bar, .top-bar-section ul li, .top-bar.expanded .title-area {
+  background: transparent;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: transparent;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+  background: transparent;
+}
+.top-bar-section ul li > a {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* general font and colors */
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* menu item when hover */
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+  background: transparent;
+  color: #c99d22;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: transparent;
+  font-weight: 700;
+}
+.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+  background: transparent;
+  color: #c99d22;
+}
+.top-bar-section .has-dropdown > a::after {
+  border-color: rgba(51, 51, 51, 0.4) transparent transparent;
+}
+.top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown, .top-bar-section .has-dropdown > a:focus + .dropdown {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: white;
+}
+.top-bar-section .dropdown li:hover:not(.has-form):not(.active) > a:not(.button) {
+  background: white;
+  color: #4caf50;
+}
+
+/* parent menu item when leaving a hovered child for another parent menu item */
+/* menu item when active */
+/* menu item when active and hover */
+/* dropdown arrow color */
+/* dropdown parent when hovering a child item */
+/* ul.dropdown, only to add border no background */
+/* dropdown child */
+/* dropdown child when hover */
+/* on small screen */
+/* content of the toggled menu */
+.top-bar .toggle-topbar.menu-icon a span::after {
+  box-shadow: 0 0 0 1px #333333, 0 7px 0 1px #333333, 0 14px 0 1px #333333;
+}
+
+
+
+/* toggle 3 horizontal bars */
+/* responsive dropdown back menu */
+.top-bar-section .dropdown li.parent-link a, .top-bar-section .dropdown li.title h5 a {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+a {
+  color: #009900;
+}
+a:hover {
+  color: #c99d22;
+}
+
+.contain-to-grid, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .dropdown li {
+  background-color: rgba(115, 201, 126, 0.8) !important;
+}
+/**************************************************************************************************** */
+/**************************************************************************************************** */
+/**************************************************************************************************** */
+
+
+
+#mapa {
+height: 99%;
+width: 100%;
+}
+
+
+
+
+
+
+footer{
+ height: 30rem;
+ background: #8adb81;
+ color: white;
+ padding: 40px;
+ bottom: 0;
+ width: auto;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #c99d22;
+}
+
+.footer-stuff {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.palabra {
+ text-align: right;
+ margin-bottom: 10px;
+ font-size: 0.7rem;
+ font-weight: 200;
+} 
+
+
+
+
+
+/* .referencia {
+  text-align: right;
+  font-size: 0.8rem;
+  line-height: 20%;
+}  */
+
+
+/*.caja-clarita {
+  background: #edeac7;
+  padding: 2rem;
+}*/
+
+
+
+
+
+
+.imagenDieteticas{
+   padding-bottom: 1rem;
+}
+
+.cartelDieteticas{
+      margin-left: 18.52px;
+}
+
+.cartelDieteticas a{
+  color: black;
+  font-weight: bold;
+}
+
+.cartelDieteticas h2{
+  margin-top:1rem; 
+  font-family: helvetica neue, roboto,"sans-serif";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cartelDieteticas p{
+  font-family: helvetica neue, roboto,"sans-serif";
+  font-size: 14px;
+  line-height: 20%;
+  
+}

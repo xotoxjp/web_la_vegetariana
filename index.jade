@@ -1,0 +1,121 @@
+doctype html
+html(lang="es")
+  head
+    title La Vegetariana
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon", href="images/favicon.png")
+    link(rel="stylesheet", href="http://cdn.foundation5.zurb.com/foundation.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css") 
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css ") 
+    link(rel="stylesheet", href="css/styles.css")
+
+  body
+    div.content  
+      .row
+        .column.small-6.medium-7
+          a(href="index.html")
+            img.logo(src="images/logo.png", alt="logo de la vegetariana")
+          
+        .column.small-6.medium-5
+          .fila1
+            a(href="https://www.facebook.com/revistavegetariana", target="_blank")
+                img.iconosSociales(src="images/FacebookIcon.png", alt="logo de facebook")
+            a(href="https://twitter.com/r_lavegetariana", target="_blank")
+                img.iconosSociales(src="images/TwitterIcon.png", alt="logo de twitter")  
+            a(href="https://instagram.com/revistavegetariana/", target="_blank")
+                img.iconosSociales(src="images/InstagramIcon.png", alt="logo de facebook")
+
+      
+      .row.barra-menu
+        .contain-to-grid.sticky
+            nav.top-bar(data-topbar role="navigation")
+              ul.title-area
+                li.name
+                li.toggle-topbar.menu-icon
+                  a.fi-list.hamburguer(href="#")
+                    
+
+              section.top-bar-section
+                ul.left
+                  li.active: a(href="#") Home
+                  li.has-dropdown
+                    a(href='#') Notas
+                    ul.dropdown
+                      li
+                        a(href='secciones/nutricion/seccionnutricion.html') Nutrición
+                      li
+                        a(href='secciones/salud/seccionsalud.html') Salud
+                      li
+                        a(href='secciones/deportes/secciondeportes.html') Deportes
+                      li
+                        a(href='secciones/solidaridad/seccionsolidaridad.html') Solidaridad
+                      li
+                        a(href='secciones/alimentacion/seccionalimentacion.html') Alimentación
+                      li
+                        a(href='secciones/sustentabilidad/seccionsustentabilidad.html') Sustentabilidad
+                      li
+                        a(href='secciones/cosmetica/seccioncosmetica.html') Cosmética
+                      li
+                        a(href='secciones/noticias/seccionnoticias.html') Noticias
+                  li: a(href="recetas/recetas.html") Recetas
+                  li: a(data-reveal-id="myModal" data-reveal) Quienes somos
+                  li: a(href="revistas/la-revista.html") Ver Revista Online
+                  li: a(href="mapa/mapa-vegetariana.html") Ver Mapa Saludable
+      .row  
+        .column.small-12
+          #myModal.reveal-modal(data-reveal='')
+            h2.modalq Quienes Somos
+            p La Vegetariana, Guía Orgánica de Buenos Aires, es una revista de distribución gratuita que difunde una manera más saludable de vivir. 
+            p Quienes la hacemos creemos que hacía falta un medio que mostrara de forma clara y concreta que se pueden hacer cosas por mejorar nuestra vida y nuestro hábitat.
+            p Por eso -desde hace más de dos años- nos encargamos personalmente de cada una de las áreas, que incluyen desde el armado editorial y el diseño, hasta la distribución.
+            p La Vegetariana no es una revista para vegetarianos, es una publicación para acercar a todo aquel que quiera a una vida mejor.
+
+            a.close-reveal-modal ×
+            
+      .row
+        .column.small-12.medium-8.large-8
+          include includes/col-1
+           
+ 
+        .column.small-12.medium-4.large-4.ruled
+          include includes/col-2
+
+
+      .row
+        .column.small-12: hr(style="border-width: 3px 0 0")
+      
+      
+      .row
+        .column.small-12
+          div.data-slick
+            div
+              a(href="https://www.facebook.com/GermanyTania", target="_blank"): img(src="images/banner_argan.png", alt="argan d´ levitee", class="bannerImg")
+            div
+              a(href="http://www.purestfields.com/", target="_blank"): img(src="images/banner_miel.png", alt="anunciante purest fields", class="bannerImg")
+            //div
+              a(href="https://www.facebook.com/Bohemia-Del-Plata-Goros-Brew-790596661036310/", target="_blank"): img(src="images/anuncio03.jpg", alt="anunciante03")
+            //div
+              a(href="https://www.facebook.com/gardenias.bellezanatural", target="_blank"): img(src="images/anuncio04.jpg", alt="anunciante04")
+            div
+              a(href="http://www.boti-k.com/", target="_blank"): img(src="images/banner_botik.png", alt="anunciante boti k", class="bannerImg")
+            div
+              a(href="https://www.facebook.com/vidamasnatural/", target="_blank"): img(src="images/banner_dietetica.png", alt="anunciante vida mas natural", class="bannerImg")
+            div
+              a(href="http://www.godbless.com.ar/", target="_blank"): img(src="images/banner_coco.png", alt="anunciante god bless you", class="bannerImg")
+            div
+              a(href="http://www.sojaalimentos.com.ar/", target="_blank"): img(src="images/banner_soja.png", alt="anunciante soja alimentos", class="bannerImg")
+            div
+              a(href="http://www.zafran.com.ar/", target="_blank"): img(src="images/banner_zafran.png", alt="anunciante zafran", class="bannerImg")
+            div
+              a(href="http://s650suplementos.com/", target="_blank"): img(src="images/banner_plata.png", alt="anunciante plata 650", class="bannerImg")       
+        
+    footer
+     include includes/footer
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+  script(src="http://cdn.foundation5.zurb.com/foundation.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js")
+  script(src="js/min/functions.min.js")
+  script(src="js/min/suscribe.min.js")
+  script(async='', defer='', src='http://assets.pinterest.com/js/pinit.js')  

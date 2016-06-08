@@ -1,0 +1,63 @@
+@media screen and (min-width: 1040px)
+	.topIcon
+		width: 70%
+		margin-top: 3.5em
+
+.fi-mail-top
+	//font-size: 3.5rem
+	color:  #88d49e
+	font-size: 6vw
+	&:hover
+		color:  #88d49e
+		opacity: 0.4
+
+.fi-telefono-top
+	//font-size: 3.5rem
+	color: #5a351b
+	font-size: 6vw
+
+@media screen and (max-width: 480px)
+	.filatop1
+		margin-top: -0.5em
+		margin-left: -1.3em 
+	.filatop2
+		margin-top: -0.5em
+		margin-left: -1.3em  
+
+
+
+
+
+.fi-social-facebook.top
+	font-size: 2.5rem
+	color: #5a351b
+
+.fi-social-twitter.top
+	font-size: 2.5rem
+	color: #b9ac3c
+
+.fi-social-instagram.top
+	font-size: 2.5rem
+	color: #88d49e
+
+
+
+
+
+
+en jade
+
+
+          ul.inline-list.right.top-actions
+            li: row.collapse.filatop1
+              .column.small-4: a(href="https://www.facebook.com/revistavegetariana", target="_blank")
+                img.iconosSociales(src="images/FacebookIcon.png", alt="logo de facebook")
+              .column.small-4: a(href="https://twitter.com/r_lavegetariana", target="_blank")
+                img.iconosSociales(src="images/TwitterIcon.png", alt="logo de twitter")  
+              .column.small-4: a(href="https://instagram.com/revistavegetariana/", target="_blank")
+                img.iconosSociales(src="images/InstagramIcon.png", alt="logo de facebook")
+          .row
+          ul.inline-list.right
+            li: row.collapse.filatop2
+              .column.small-3: img.iconoTelefono(src="images/telIcon.png", alt="logo teléfono") 
+              .column.small-8: img.iconoMail(src="images/mailIcon.png", alt="logo de e-mail") 

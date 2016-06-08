@@ -1,0 +1,480 @@
+.unselectable
+	-webkit-touch-callout: none
+	-webkit-user-select: none
+	-khtml-user-select: none 
+	-moz-user-select: -moz-none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	
+.row
+	max-width: 80rem
+
+.barra-menu
+	margin-bottom: 20px
+	padding-left: 15px
+
+.modalq
+	text-align: center
+
+.black-box
+	background: #C99D22
+	color: white
+	display: inline-block
+	padding: 0px 0.3em
+
+.full-bleed
+	margin: 0 -0.9375rem
+	
+.tint-box
+	background: #ddd7d1
+	padding: 0.9375rem
+	margin-bottom: 0.9375rem
+
+.sponsored-box
+	background: #e5dec1
+	padding: 1rem 
+	margin-bottom: 1rem
+
+.sponsored-descript
+	margin-top: 15px
+
+.sponsored-img
+	padding: 5px 0px 0px 30px
+	margin-top: 15px
+
+.ruled
+	border: solid #ccc
+	border-width: 0 1px 0 1px
+
+.muted
+	color: #999
+
+.lead
+	font-size: 18px
+	font-weight: 300
+
+
+
+/******************************************************************************************************************/
+/******************estilos para la parte superior de redes sociales y telefono y mail******************************/
+/******************************************************************************************************************/
+
+.iconosSociales
+	margin: 4rem 0.5rem
+	width: 10%
+	height: auto
+	max-width: 1200px
+	&:hover
+		opacity: 0.4
+	
+.iconoTelefono
+	width: 20%
+	max-width: 1200px
+	position: relative
+	right: 1rem
+
+.iconoMail
+	width: 45%
+	max-width: 1200px
+
+.fila1
+	position: relative
+	left: 20rem
+	
+
+.fila2
+	position: relative
+	left: 12rem
+	top: -3rem
+	
+
+
+@media screen and (max-width: 1024px)
+	.fila1
+		position: relative
+		left: 14rem
+
+	.fila2
+		position: relative
+		left: 8rem
+
+@media screen and (max-width: 768px)
+	.fila1
+		position: relative
+		left: 10rem
+
+	.fila2
+		position: relative
+		left: 6rem
+
+@media screen and (max-width: 480px)
+	.fila1
+		position: relative
+		left: 2rem
+		top: -2.5rem
+
+	.iconosSociales
+		width: 16%
+
+	.iconoTelefono
+		width: 45%
+		position: relative
+		left: -4.5rem
+		top: -0.5rem
+	.iconoMail
+		width: 90%
+		position: relative
+		left: -5rem
+		top: -5rem
+
+	.logo
+		position: relative
+		top: 2rem
+
+@media screen and (max-width: 375px)
+	.iconoTelefono
+		display: none
+	.iconoMail
+		display: none
+	.iconosSociales
+		width: 20%
+	.fila1
+		position: relative
+		left: 1rem
+		top: -1.2rem
+
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+
+
+
+
+.content
+	position: relative
+	z-index: 2
+	background: white
+	margin-bottom: 22rem
+	overflow-x: hidden
+	overflow-y: auto
+@media only screen and (-webkit-min-device-pixel-ratio: 1)
+	::i-block-chrome, .content
+		margin-bottom: 0.5rem
+
+
+@media screen and (max-width: 480px)
+	.content
+		margin-bottom: 30rem
+
+
+.orbit-next, .orbit-prev
+	background: darkgoldenrod !important
+
+.example-orbit-content li div
+	color: white
+	background: #0F1D24
+	padding: 30px 40px
+
+	h1, h2, h3, h4
+		color: white
+
+@media screen and (max-width: 320px)
+	.orbit-caption
+		padding: 0.2rem 0.5rem !important
+	.orbit-caption h3,h4
+		font-weight: normal
+		font-size: 0.875em 
+
+
+/*** estilos al footer ***/
+footer
+	background: #8ADB81
+	color: white
+	padding: 40px
+	position: fixed
+	bottom: 0px
+	width: 100%
+@media only screen and (-webkit-min-device-pixel-ratio: 1)
+	::i-block-chrome, footer
+		position: relative
+
+
+footer a
+	color: white
+	&:hover
+		color: #C99D22
+
+.footer-stuff
+	max-width: 80rem
+	margin: 0rem auto
+
+.palabra
+	text-align: right
+	margin-top: 5rem
+	font-size: 0.7rem
+	font-weight: 200
+
+.referencia
+	text-align: right
+	font-size: 0.8rem
+	line-height: 20%
+
+.caja-clarita
+	background: #EDEAC7
+	padding: 2rem
+	
+/*******************************************************************/
+/************************* top bar styling *************************/
+/*******************************************************************/
+/* area that is not covered by any menu's items
+
+.top-bar, .top-bar-section ul li, .top-bar.expanded .title-area
+	background: transparent
+
+.top-bar-section
+	li:not(.has-form) a:not(.button)
+		background: transparent
+	ul li
+		&:hover:not(.has-form) > a
+			background: transparent
+		> a
+			//font-family: "Crimson Text",serif
+			//color: #333
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+
+/* general font and colors
+
+.top-bar .name
+	h1 a, h2 a, h3 a, h4 a, p a, span a
+		//font-family: "Crimson Text",serif
+		//color: #333
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+
+/* menu item when hover
+
+.top-bar-section
+	li
+		&:not(.has-form) a:hover:not(.button)
+			background: transparent
+			color: #C99D22
+		&.hover > a:not(.button)
+			//color: #333
+		&.active:not(.has-form) a
+			&:not(.button)
+				background: transparent
+				font-weight: 700
+				//color: #333
+			&:hover:not(.button)
+				background: transparent
+				color: #C99D22
+	.has-dropdown > a::after
+		border-color: rgba(51, 51, 51, 0.4) transparent transparent
+	ul li:hover:not(.has-form) > a
+		//color: #333
+	.has-dropdown
+		&.hover > .dropdown, &.not-click:hover > .dropdown, > a:focus + .dropdown
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+	.dropdown li
+		&:not(.has-form):not(.active) > a:not(.button)
+			background: #fff
+			//color: #333
+		&:hover:not(.has-form):not(.active) > a:not(.button)
+			background: #fff
+			color: #4caf50
+
+/* parent menu item when leaving a hovered child for another parent menu item
+
+/* menu item when active
+
+/* menu item when active and hover
+
+/* dropdown arrow color
+
+/* dropdown parent when hovering a child item
+
+/* ul.dropdown, only to add border no background
+
+/* dropdown child
+
+/* dropdown child when hover
+
+/* on small screen
+
+/* content of the toggled menu
+
+.top-bar .toggle-topbar.menu-icon a
+	//color: #333
+	span::after
+		box-shadow: 0 0 0 1px #333, 0 7px 0 1px #333, 0 14px 0 1px #333
+
+/* toggle 3 horizontal bars
+
+/* responsive dropdown back menu
+
+.top-bar-section .dropdown li
+	&.parent-link a, &.title h5 a
+		//color: #333
+		//font-family: "Crimson Text",serif
+		font-size: 18px
+		text-transform: uppercase
+
+a
+	color: #009900
+	&:hover
+		color: #C99D22
+
+
+.fb-share-button
+	line-height: 50%
+
+.revista-slick
+	width: 80%
+	margin: auto
+
+h1,h2,h3,h4
+	color: #C99D22
+
+.verdeoscuro
+	color: #0ACC24
+
+.orbit-caption
+	background-color: rgba(115,201,126,0.8)!important
+
+.contain-to-grid, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .dropdown li
+	background-color: rgba(115,201,126,0.8)!important
+
+
+.selectrev
+	cursor: pointer
+	&:hover
+		transform: scale(1.1)
+
+
+/*** estilos para cartel de anunciantes***/
+.bannerImg
+	width: 200px
+	height: 200px
+	padding: 0px 10px
+
+
+@media screen and (min-width: 1042px)
+	.left 
+		margin-left: -2em!important
+
+@media screen and (min-width: 1268px)
+	.left 
+		margin-left: -8rem!important
+
+
+/*** estilos personalizados para el texto ***/
+.pizarron
+	background: black
+	color: white
+	padding: 10px
+	border-style: solid
+	border-color: darkgoldenrod
+
+.post-it-style
+	display: inline-block
+	background: #ffffb3
+	padding: 10px
+	box-shadow: 5px 5px 5px grey
+	transform: rotate(-1.5deg)
+
+.borde-rectangulo
+	padding: 10px
+	border-style: solid
+	border-color: darkgreen
+
+.circle-text 
+	width: 50%
+	&:after
+		content: ""
+		display: block
+		width: 100%
+		height: 0
+		padding-bottom: 20%
+		-moz-border-radius: 50%
+		-webkit-border-radius: 50%
+		border-radius: 50%
+		border-style: solid
+		border-width: 10px
+		border-color: #ccff99 
+
+.circle-text div 
+	float: left
+	width: 100%
+	padding-top: 13%
+	line-height: 1em
+	margin-top: -0.5em
+	text-align: center
+
+.fondo-celestito
+	color: darkorange
+	background: Thistle
+	padding: 10px
+
+.post-claro
+	display: inline-block
+	color: green 
+	background: LemonChiffon
+	padding: 10px
+	box-shadow: 5px 5px 5px grey
+	transform: rotate(-1.5deg) 
+
+.post-opcion
+	display: inline-block
+	background: LightYellow 
+	padding: 10px
+	box-shadow: 5px 5px 5px grey
+	transform: rotate(-1deg)
+
+.post-verde
+	display: inline-block 
+	color: whitesmoke
+	background: LawnGreen  
+	padding: 20px
+	border-radius: 10%
+
+.borde-rect-orange
+	padding: 20px
+	border-style: solid
+	border-color: darkorange
+	border-radius: 10%
+	border-width: 12px
+
+.borde-rect-green
+	padding: 20px
+	border-style: dotted
+	border-color: darkolivegreen
+	border-radius: 10%
+	border-width: 12px
+
+.borde-rect-blue
+	padding: 20px
+	border-style: dashed
+	border-color: steelblue
+	border-radius: 10%
+	border-width: 12px
+
+.borde-rect-purple
+	padding: 25px
+	border-style: solid
+	border-color: mediumpurple
+	border-radius: 10%
+	border-width: 12px
+
+.post-azul
+	display: inline-block 
+	color: whitesmoke
+	background: teal  
+	padding: 10px
+	border-radius: 5%
