@@ -9,7 +9,7 @@ También posee un mapa donde encontrar a los distintos anunciantes de la revista
 Es un diseño responsivo desarrollado con:
 * Jade (para procesar HTML) 
 * SASS (para procesar el CSS)
-* Framework Foundation 5 
+* Framework Foundation 5.5.3
 * Media Queries 
 * API´s de Google para la parte de mapas
 
