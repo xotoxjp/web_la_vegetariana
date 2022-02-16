@@ -28,3 +28,12 @@ Seccion Artículos:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalSECTIONNOTASlavegetariana.png)
 Sección Lateral:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalSECTIONRECETASlavegetariana.png)
+
+#### Mapa Interactivo
+![](https://github.com/xotoxjp/web_la_vegetariana/blob/c42b44500919d9758d2d0a904d42de29c1d97e33/images/finalMAPAanuncianteslavegetariana.png)
+
+#### Visor PDF Ediciones Anteriores
+![](https://github.com/xotoxjp/web_la_vegetariana/blob/c42b44500919d9758d2d0a904d42de29c1d97e33/images/finalVERPDFlavegetariana.png)
+
+#### Pop UP de Quienes Somos
+![](https://github.com/xotoxjp/web_la_vegetariana/blob/c42b44500919d9758d2d0a904d42de29c1d97e33/images/finalPOPUPQSlavegetariana.png)
