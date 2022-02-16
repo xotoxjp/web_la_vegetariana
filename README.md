@@ -13,3 +13,9 @@ Es un diseño responsivo desarrollado con:
 * Media Queries 
 * API´s de Google para la parte de mapas
 
+### Instalación del Sitio
+El sitio solo necesita un server Apache
+
+
+### Secciones del Sitio
+
