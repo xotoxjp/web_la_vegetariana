@@ -18,15 +18,15 @@ El sitio solo necesita un server Apache
 
 
 ### Secciones del Sitio
-Header del Sitio:
+#### Header del Sitio:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalHEADERlavegetariana.png)
-Menu:
+#### Menu:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalMENUlavegetariana.png)
-Seccion Principal:
+#### Seccion Principal:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalCARROUSEL-REVISTAlavegetariana.png)
-Seccion Artículos:
+#### Seccion Artículos:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalSECTIONNOTASlavegetariana.png)
-Sección Lateral:
+#### Sección Lateral:
 ![](https://github.com/xotoxjp/web_la_vegetariana/blob/97f24676e82f22d8c833bb647d54ac70c9d9bc6a/images/finalSECTIONRECETASlavegetariana.png)
 
 #### Mapa Interactivo
